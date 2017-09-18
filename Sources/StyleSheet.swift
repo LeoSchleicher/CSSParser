@@ -224,7 +224,11 @@ public indirect enum StyleSelector {
     case .className:
       matches = element.classNames?.contains(value) ?? false
     case .tag:
-      matches = element.tagName == value
+        if(value == "*"){
+            matches = true
+        } else {
+            matches = element.tagName == value
+        }
     case .attributeExact:
       if let data = data, let attribute = data.attribute, let value = data.value {
         matches = element.has(attribute: attribute, with: value)
