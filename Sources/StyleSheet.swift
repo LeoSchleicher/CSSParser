@@ -452,13 +452,10 @@ public struct StyleSheet: Equatable {
         return values.map { value in
             if value.isInt {
                 return String(cString: value.raw)
-                /*} else if value.value.fValue >= Double.leastNormalMagnitude {
-                 print("is double: \(value.value.fValue)")
-                 return "\(value.value.fValue)"*/
-            } else if (value.value.string != nil) {
+            } else if value.value.fValue > 1.0e-10 && value.value.fValue < 1.0e+10 {
+                 return "\(value.value.fValue)"
+            } else {
                 return String(cString: value.value.string)
-            } else { // float!
-                return "\(value.value.fValue)"
             }
         }.joined(separator: " ")
     }
