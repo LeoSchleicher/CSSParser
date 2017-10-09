@@ -446,19 +446,22 @@ public struct StyleSheet: Equatable {
   private func makeDeclaration(_ declaration: KatanaDeclaration) -> StyleDeclaration {
     return StyleDeclaration(name: String(cString: declaration.property), value: makeValue(declaration.values.pointee), important: declaration.important)
   }
-
+    
   private func makeValue(_ values: KatanaArray) -> String {
-    let values: [KatanaValue] = fromKatanaArray(array: values)
-    return values.map { value in
-      if value.isInt {
-        return String(cString: value.raw)
-      } else if value.value.fValue >= Double.leastNormalMagnitude {
-        return "\(value.value.fValue)"
-      } else {
-        return String(cString: value.value.string)
-      }
-    }.joined(separator: " ")
-  }
+        let values: [KatanaValue] = fromKatanaArray(array: values)
+        return values.map { value in
+            if value.isInt {
+                return String(cString: value.raw)
+                /*} else if value.value.fValue >= Double.leastNormalMagnitude {
+                 print("is double: \(value.value.fValue)")
+                 return "\(value.value.fValue)"*/
+            } else if (value.value.string != nil) {
+                return String(cString: value.value.string)
+            } else { // float!
+                return "\(value.value.fValue)"
+            }
+        }.joined(separator: " ")
+    }
 
   private func fromKatanaArray<T>(array: KatanaArray) -> [T] {
     var data = array.data
