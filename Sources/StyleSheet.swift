@@ -337,7 +337,7 @@ public struct StyleSheet: Equatable {
   }
 
   public init?(string: String, inheritedProperties: [String]? = nil) {
-    guard string.characters.count > 0, let data = string.data(using: String.Encoding.utf8) else {
+    guard string.count > 0, let data = string.data(using: String.Encoding.utf8) else {
       return nil
     }
     self.data = data
