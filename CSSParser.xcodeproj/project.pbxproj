@@ -23,7 +23,6 @@
 		F26975122237D77500E867DD /* selector.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975042237D77500E867DD /* selector.c */; };
 		F26975132237D77500E867DD /* katana.tab.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975052237D77500E867DD /* katana.tab.c */; };
 		F26975142237D77500E867DD /* foundation.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975062237D77500E867DD /* foundation.c */; };
-		F26975152237D77500E867DD /* THANKS in Resources */ = {isa = PBXBuildFile; fileRef = F26975072237D77500E867DD /* THANKS */; };
 		F26975162237D77500E867DD /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975082237D77500E867DD /* parser.c */; };
 		F26975172237D77500E867DD /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975092237D77500E867DD /* tokenizer.c */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		F26975042237D77500E867DD /* selector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = selector.c; sourceTree = "<group>"; };
 		F26975052237D77500E867DD /* katana.tab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = katana.tab.c; sourceTree = "<group>"; };
 		F26975062237D77500E867DD /* foundation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = foundation.c; sourceTree = "<group>"; };
-		F26975072237D77500E867DD /* THANKS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THANKS; sourceTree = "<group>"; };
 		F26975082237D77500E867DD /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
 		F26975092237D77500E867DD /* tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tokenizer.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,7 +133,6 @@
 				F26975042237D77500E867DD /* selector.c */,
 				F26975052237D77500E867DD /* katana.tab.c */,
 				F26975062237D77500E867DD /* foundation.c */,
-				F26975072237D77500E867DD /* THANKS */,
 				F26975082237D77500E867DD /* parser.c */,
 				F26975092237D77500E867DD /* tokenizer.c */,
 			);
@@ -246,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26975152237D77500E867DD /* THANKS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

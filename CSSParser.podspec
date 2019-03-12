@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CSSParser"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Swift CSS parser based on katana-parser."
   s.description      = "CSSParser is a tiny Swift wrapper around the pure C katana-parser framework."
 
