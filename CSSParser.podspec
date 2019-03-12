@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CSSParser"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "Swift CSS parser based on katana-parser."
   s.description      = "CSSParser is a tiny Swift wrapper around the pure C katana-parser framework."
 
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
 
-  s.source_files = "Sources/**/*", "Carthage/Checkouts/katana-parser/src/*"
+  s.source_files = "Sources/**/*", "Katana/**/*"
   s.public_header_files = "Sources/CSSParser.h"
 end

@@ -12,19 +12,20 @@
 		D8C579521DAE19E600DC12E5 /* StyleElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C579501DAE19E600DC12E5 /* StyleElement.swift */; };
 		D8C579531DAE19E600DC12E5 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C579511DAE19E600DC12E5 /* StyleSheet.swift */; };
 		D8C579561DAE1A9C00DC12E5 /* StyleSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C579541DAE1A9000DC12E5 /* StyleSheetTests.swift */; };
-		F26974ED2237D0D100E867DD /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974DF2237D0D100E867DD /* parser.h */; };
-		F26974EE2237D0D100E867DD /* tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974E02237D0D100E867DD /* tokenizer.h */; };
-		F26974F02237D0D100E867DD /* katana.lex.c in Sources */ = {isa = PBXBuildFile; fileRef = F26974E22237D0D100E867DD /* katana.lex.c */; };
-		F26974F12237D0D100E867DD /* foundation.c in Sources */ = {isa = PBXBuildFile; fileRef = F26974E32237D0D100E867DD /* foundation.c */; };
-		F26974F22237D0D100E867DD /* katana.tab.c in Sources */ = {isa = PBXBuildFile; fileRef = F26974E42237D0D100E867DD /* katana.tab.c */; };
-		F26974F32237D0D100E867DD /* katana.tab.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974E52237D0D100E867DD /* katana.tab.h */; };
-		F26974F42237D0D100E867DD /* katana.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974E62237D0D100E867DD /* katana.h */; };
-		F26974F52237D0D100E867DD /* selector.c in Sources */ = {isa = PBXBuildFile; fileRef = F26974E72237D0D100E867DD /* selector.c */; };
-		F26974F62237D0D100E867DD /* selector.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974E82237D0D100E867DD /* selector.h */; };
-		F26974F72237D0D100E867DD /* foundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974E92237D0D100E867DD /* foundation.h */; };
-		F26974F82237D0D100E867DD /* katana.lex.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974EA2237D0D100E867DD /* katana.lex.h */; };
-		F26974F92237D0D100E867DD /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = F26974EB2237D0D100E867DD /* parser.c */; };
-		F26974FA2237D0D100E867DD /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = F26974EC2237D0D100E867DD /* tokenizer.c */; };
+		F269750A2237D77500E867DD /* katana.lex.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974FC2237D77500E867DD /* katana.lex.h */; };
+		F269750B2237D77500E867DD /* selector.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974FD2237D77500E867DD /* selector.h */; };
+		F269750C2237D77500E867DD /* katana.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974FE2237D77500E867DD /* katana.h */; };
+		F269750D2237D77500E867DD /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = F26974FF2237D77500E867DD /* parser.h */; };
+		F269750E2237D77500E867DD /* foundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F26975002237D77500E867DD /* foundation.h */; };
+		F269750F2237D77500E867DD /* katana.tab.h in Headers */ = {isa = PBXBuildFile; fileRef = F26975012237D77500E867DD /* katana.tab.h */; };
+		F26975102237D77500E867DD /* tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = F26975022237D77500E867DD /* tokenizer.h */; };
+		F26975112237D77500E867DD /* katana.lex.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975032237D77500E867DD /* katana.lex.c */; };
+		F26975122237D77500E867DD /* selector.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975042237D77500E867DD /* selector.c */; };
+		F26975132237D77500E867DD /* katana.tab.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975052237D77500E867DD /* katana.tab.c */; };
+		F26975142237D77500E867DD /* foundation.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975062237D77500E867DD /* foundation.c */; };
+		F26975152237D77500E867DD /* THANKS in Resources */ = {isa = PBXBuildFile; fileRef = F26975072237D77500E867DD /* THANKS */; };
+		F26975162237D77500E867DD /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975082237D77500E867DD /* parser.c */; };
+		F26975172237D77500E867DD /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = F26975092237D77500E867DD /* tokenizer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,19 +47,20 @@
 		D8C579501DAE19E600DC12E5 /* StyleElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleElement.swift; sourceTree = "<group>"; };
 		D8C579511DAE19E600DC12E5 /* StyleSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
 		D8C579541DAE1A9000DC12E5 /* StyleSheetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSheetTests.swift; sourceTree = "<group>"; };
-		F26974DF2237D0D100E867DD /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parser.h; path = Katana/parser.h; sourceTree = SOURCE_ROOT; };
-		F26974E02237D0D100E867DD /* tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tokenizer.h; path = Katana/tokenizer.h; sourceTree = SOURCE_ROOT; };
-		F26974E22237D0D100E867DD /* katana.lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = katana.lex.c; path = Katana/katana.lex.c; sourceTree = SOURCE_ROOT; };
-		F26974E32237D0D100E867DD /* foundation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = foundation.c; path = Katana/foundation.c; sourceTree = SOURCE_ROOT; };
-		F26974E42237D0D100E867DD /* katana.tab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = katana.tab.c; path = Katana/katana.tab.c; sourceTree = SOURCE_ROOT; };
-		F26974E52237D0D100E867DD /* katana.tab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = katana.tab.h; path = Katana/katana.tab.h; sourceTree = SOURCE_ROOT; };
-		F26974E62237D0D100E867DD /* katana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = katana.h; path = Katana/katana.h; sourceTree = SOURCE_ROOT; };
-		F26974E72237D0D100E867DD /* selector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = selector.c; path = Katana/selector.c; sourceTree = SOURCE_ROOT; };
-		F26974E82237D0D100E867DD /* selector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = selector.h; path = Katana/selector.h; sourceTree = SOURCE_ROOT; };
-		F26974E92237D0D100E867DD /* foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = foundation.h; path = Katana/foundation.h; sourceTree = SOURCE_ROOT; };
-		F26974EA2237D0D100E867DD /* katana.lex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = katana.lex.h; path = Katana/katana.lex.h; sourceTree = SOURCE_ROOT; };
-		F26974EB2237D0D100E867DD /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parser.c; path = Katana/parser.c; sourceTree = SOURCE_ROOT; };
-		F26974EC2237D0D100E867DD /* tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tokenizer.c; path = Katana/tokenizer.c; sourceTree = SOURCE_ROOT; };
+		F26974FC2237D77500E867DD /* katana.lex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katana.lex.h; sourceTree = "<group>"; };
+		F26974FD2237D77500E867DD /* selector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selector.h; sourceTree = "<group>"; };
+		F26974FE2237D77500E867DD /* katana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katana.h; sourceTree = "<group>"; };
+		F26974FF2237D77500E867DD /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		F26975002237D77500E867DD /* foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foundation.h; sourceTree = "<group>"; };
+		F26975012237D77500E867DD /* katana.tab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katana.tab.h; sourceTree = "<group>"; };
+		F26975022237D77500E867DD /* tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenizer.h; sourceTree = "<group>"; };
+		F26975032237D77500E867DD /* katana.lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = katana.lex.c; sourceTree = "<group>"; };
+		F26975042237D77500E867DD /* selector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = selector.c; sourceTree = "<group>"; };
+		F26975052237D77500E867DD /* katana.tab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = katana.tab.c; sourceTree = "<group>"; };
+		F26975062237D77500E867DD /* foundation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = foundation.c; sourceTree = "<group>"; };
+		F26975072237D77500E867DD /* THANKS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THANKS; sourceTree = "<group>"; };
+		F26975082237D77500E867DD /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		F26975092237D77500E867DD /* tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tokenizer.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,7 @@
 		D8C5790C1DAE185E00DC12E5 = {
 			isa = PBXGroup;
 			children = (
-				F26974DE2237D0A700E867DD /* Katana */,
+				F26974FB2237D77500E867DD /* Katana */,
 				D8C579181DAE185E00DC12E5 /* Sources */,
 				D8C579231DAE185E00DC12E5 /* Tests */,
 				D8C579171DAE185E00DC12E5 /* Products */,
@@ -119,25 +121,25 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		F26974DE2237D0A700E867DD /* Katana */ = {
+		F26974FB2237D77500E867DD /* Katana */ = {
 			isa = PBXGroup;
 			children = (
-				F26974E32237D0D100E867DD /* foundation.c */,
-				F26974E92237D0D100E867DD /* foundation.h */,
-				F26974E62237D0D100E867DD /* katana.h */,
-				F26974E22237D0D100E867DD /* katana.lex.c */,
-				F26974EA2237D0D100E867DD /* katana.lex.h */,
-				F26974E42237D0D100E867DD /* katana.tab.c */,
-				F26974E52237D0D100E867DD /* katana.tab.h */,
-				F26974EB2237D0D100E867DD /* parser.c */,
-				F26974DF2237D0D100E867DD /* parser.h */,
-				F26974E72237D0D100E867DD /* selector.c */,
-				F26974E82237D0D100E867DD /* selector.h */,
-				F26974EC2237D0D100E867DD /* tokenizer.c */,
-				F26974E02237D0D100E867DD /* tokenizer.h */,
+				F26974FC2237D77500E867DD /* katana.lex.h */,
+				F26974FD2237D77500E867DD /* selector.h */,
+				F26974FE2237D77500E867DD /* katana.h */,
+				F26974FF2237D77500E867DD /* parser.h */,
+				F26975002237D77500E867DD /* foundation.h */,
+				F26975012237D77500E867DD /* katana.tab.h */,
+				F26975022237D77500E867DD /* tokenizer.h */,
+				F26975032237D77500E867DD /* katana.lex.c */,
+				F26975042237D77500E867DD /* selector.c */,
+				F26975052237D77500E867DD /* katana.tab.c */,
+				F26975062237D77500E867DD /* foundation.c */,
+				F26975072237D77500E867DD /* THANKS */,
+				F26975082237D77500E867DD /* parser.c */,
+				F26975092237D77500E867DD /* tokenizer.c */,
 			);
-			name = Katana;
-			path = "New Group";
+			path = Katana;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,14 +149,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26974EE2237D0D100E867DD /* tokenizer.h in Headers */,
-				F26974F82237D0D100E867DD /* katana.lex.h in Headers */,
-				F26974F62237D0D100E867DD /* selector.h in Headers */,
-				F26974F42237D0D100E867DD /* katana.h in Headers */,
+				F269750F2237D77500E867DD /* katana.tab.h in Headers */,
 				D8C5794E1DAE19AA00DC12E5 /* CSSParser.h in Headers */,
-				F26974ED2237D0D100E867DD /* parser.h in Headers */,
-				F26974F72237D0D100E867DD /* foundation.h in Headers */,
-				F26974F32237D0D100E867DD /* katana.tab.h in Headers */,
+				F269750E2237D77500E867DD /* foundation.h in Headers */,
+				F269750B2237D77500E867DD /* selector.h in Headers */,
+				F26975102237D77500E867DD /* tokenizer.h in Headers */,
+				F269750C2237D77500E867DD /* katana.h in Headers */,
+				F269750D2237D77500E867DD /* parser.h in Headers */,
+				F269750A2237D77500E867DD /* katana.lex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26975152237D77500E867DD /* THANKS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +264,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26974F92237D0D100E867DD /* parser.c in Sources */,
-				F26974F52237D0D100E867DD /* selector.c in Sources */,
-				F26974F22237D0D100E867DD /* katana.tab.c in Sources */,
-				F26974F12237D0D100E867DD /* foundation.c in Sources */,
+				F26975162237D77500E867DD /* parser.c in Sources */,
+				F26975142237D77500E867DD /* foundation.c in Sources */,
+				F26975132237D77500E867DD /* katana.tab.c in Sources */,
+				F26975122237D77500E867DD /* selector.c in Sources */,
 				D8C579531DAE19E600DC12E5 /* StyleSheet.swift in Sources */,
-				F26974F02237D0D100E867DD /* katana.lex.c in Sources */,
+				F26975112237D77500E867DD /* katana.lex.c in Sources */,
 				D8C579521DAE19E600DC12E5 /* StyleElement.swift in Sources */,
-				F26974FA2237D0D100E867DD /* tokenizer.c in Sources */,
+				F26975172237D77500E867DD /* tokenizer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
